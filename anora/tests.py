@@ -1,8 +1,9 @@
 from django.utils import unittest
 from anora.templatetags.anora import anora
 
-class AnoraTestCase(unittest.TestCase):
 
+class AnoraTestCase(unittest.TestCase):
+	
 	def test_anora(self):
 		awords = ['rabbit', 'mole', 'fox']
 		anwords = ['owl', 'ox', 'octopus']
